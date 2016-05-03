@@ -15,7 +15,7 @@ body.landing {
 
 .navbar {
   padding: 0.5rem;
-  background-color: rgb(101,18,95);
+  background-color: rgb(101,18,85);
 }
 
 .navbar .logo {
@@ -68,7 +68,7 @@ font-size: 1.25rem;
 }
 
  .ion-music-note,
- .ion-radio-waves,
+ .ion-ios-pulse,
  .ion-iphone {
      color: rgb(233,50,117);
      font-size: 5rem;
