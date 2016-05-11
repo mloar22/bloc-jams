@@ -20,6 +20,7 @@ body {
 .navbar {
   position: relative;
   padding: 0.5rem;
+  background-color: rgb(101, 18, 95);
   /* #1 */
   background-color: rgba(101, 18, 95, 0.5);
   /* #2 */
@@ -40,11 +41,10 @@ body {
   right: 0;
   height: 100px;
   color: white;
+  /* #3 */
+  text-decoration: none;
 }
 
-text-decoration: none;
-
-}
 .links-container .navbar-link {
   display: table-cell;
   position: relative;
@@ -52,7 +52,6 @@ text-decoration: none;
   padding-left: 1rem;
   padding-right: 1rem;
   /* #4 */
-  
   vertical-align: middle;
   color: white;
   font-size: 0.625rem;
@@ -60,14 +59,20 @@ text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
   /* #3 */
-  
   text-decoration: none;
   cursor: pointer;
 }
 
+
 /* #5 */
+
 .links-container .navbar-link:hover {
   color: rgb(233, 50, 117);
+}
+
+.links-container .navbar-link:active {
+  color: rgb(233,50,117)
+  background-color: white
 }
 
 }
@@ -92,7 +97,7 @@ text-decoration: none;
 .column {
   float: left;
   padding-left: 1rem;
-  padding-right:: 1rem;
+  padding-right: : 1rem;
 }
 .column.full {
   width: 100%;
